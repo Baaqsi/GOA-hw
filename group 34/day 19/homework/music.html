@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: rgba(13, 107, 107, 0.473);
+            overflow: hidden;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+        .navbar ul {
+            display: flex;
+            gap: 27px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            color: rgba(6, 15, 102, 0.308);
+        }
+        .navbar li a {
+            color: rgb(21, 76, 102);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        .navbar li a:hover {
+            background-color: rgba(23, 0, 230, 0.7);
+        }
+        .soundis-container {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-top: 50px; /* Adjust margin as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/home.html">home</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutme.html">about me</a></li>
+            <li><a href="http://127.0.0.1:5500/videos.html">fav video</a></li>
+            <li><a href="http://127.0.0.1:5500/music.html">fav audio</a></li>
+        </ul>
+    </div>
+    <div class="soundis-container">
+        <p>MY EYES by Travis Scott</p>
+        <audio controls>
+            <source src="MY EYES.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Surround, Kill, Devour By cannibal corpse</p>
+        <audio controls>
+            <source src="Surround, Kill, Devour.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+</body>
+</html>

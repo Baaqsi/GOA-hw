@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0;
+            margin: 0;
+            background-color: rgba(32, 145, 107, 0.432);
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+        ul {
+            display: flex;
+            gap: 27px;
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            color: rgba(6, 15, 102, 0.308);
+        }
+        ul li a {
+            color: rgb(21, 76, 102);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        ul li a:hover {
+            background-color: rgba(23, 0, 230, 0.7);
+        }
+        .content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        h1 {
+            font-size: 25px;
+            text-align: center;
+            color: #060f66;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/home.html">home</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutme.html">about me</a></li>
+            <li><a href="http://127.0.0.1:5500/videos.html">fav video</a></li>
+            <li><a href="http://127.0.0.1:5500/music.html">fav audio</a></li>
+        </ul>
+        <div class="content">
+            <div class="text-container">
+                <h1>ჩემი სახელია ლუკა ვარ 14 წლის მიყვარს Python, reversing</h1>
+                <h1>და PC building. ეს როჟა მარჯვნივ მევარ</h1>
+            </div>
+            <img width="300px" src="rammus-rammuslol.gif" alt="Image">
+        </div>
+    </div>
+</body>
+</html>

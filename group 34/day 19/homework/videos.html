@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgba(13, 107, 107, 0.473);
+            overflow: hidden;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000; /* Ensure the navbar is on top */
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
+        }
+        .navbar ul {
+            display: flex;
+            gap: 27px;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .navbar li {
+            color: rgba(6, 15, 102, 0.308);
+        }
+        .navbar li a {
+            color: rgb(21, 76, 102);
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+        }
+        .navbar li a:hover {
+            background-color: rgba(23, 0, 230, 0.7);
+        }
+        .videos-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        video {
+            width: 80%;
+            max-width: 800px;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+        h1 {
+            position: absolute;
+            top: 220px;
+            left:700px;
+            color: rgb(21, 76, 102);
+        }
+    </style>
+</head>
+<body>
+    <h1>House of the dragon (daemon on top)</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/home.html">home</a></li>
+            <li><a href = "http://127.0.0.1:5500/aboutme.html">about me</a></li>
+            <li><a href="http://127.0.0.1:5500/videos.html">fav video</a></li>
+            <li><a href="http://127.0.0.1:5500/music.html">fav audio</a></li>
+        </ul>
+    </div>
+    <div class="videos-container">
+        <video controls>
+            <source src="videoplayback.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
