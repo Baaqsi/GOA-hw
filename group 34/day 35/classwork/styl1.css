@@ -1,0 +1,7 @@
+.parent p {
+    color: blue;
+}
+
+.parent .child {
+    font-size: 18px;
+}

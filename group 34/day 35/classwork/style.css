@@ -1,0 +1,12 @@
+.bluebackground {
+    background-color: lightblue;
+}
+
+.redtxt {
+    color: red;
+}
+
+#realuri {
+    border: 2px solid black;
+    padding: 10px;
+}
