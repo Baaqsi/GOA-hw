@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    background-image: url(ezgif-2-9bec8d1902.jpg);
+    background-size: cover;
+}
+
+form{
+    border-radius: 11px;
+    background-color: rgba(0, 255, 255, 0.404);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 2px 7px 2px rgba(250, 128, 114, 0.596);
+}
+
+
+form:hover{
+    box-shadow: 2px 8px 2px black;
+}
+
+input{
+    font-size: 25px;
+    display: flex;
+    margin: 5px;
+    cursor:text;
+}
+
+input:hover{
+    box-shadow: 2px 5px 2px salmon;
+}
+
+input.kok{
+    border-radius: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+input.kok:hover{
+    background-color: rgba(18, 165, 67, 0.418);
+    box-shadow: 2px 5px 2px;
+}
+
+a {
+    color: rgb(1, 37, 70); 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
