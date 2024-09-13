@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110vh;
+    overflow: hidden;
+}
+.main{
+    display: flex;
+    gap: 50px;
+}
+
+.gakroba {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation: gakroba 3s ease-in-out infinite;
+  }
+
+  @keyframes gakroba {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+
+}
+
+.triali{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation: triali 3s ease-in-out infinite;
+}
+
+
+@keyframes triali{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(90deg);
+        border-radius: 20%;
+    }
+}
+
+.lgbt{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation: lgbt 3s ease-in-out infinite;
+}
+
+
+@keyframes lgbt{
+    from{
+        background-color: lightblue;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+.diditriali{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation: diditriali 3s ease-in-out infinite;
+}
+
+
+@keyframes diditriali{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+        border-radius: 20%;
+    }
+}
+
+.gadideba{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation: gadideba 3s ease-in-out infinite;
+}
+
+
+@keyframes gadideba{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
