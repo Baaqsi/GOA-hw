@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:  sans-serif;
+  padding: 20px;
+  margin: 0;
+  min-height: 1080px;
+  overflow: hidden;
+}
+
+main {
+  background-color: white;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: auto;
+  width: 800px;
+}
+
+section {
+  padding: 35px;
+}
+
+.greyish-blue {
+  background-color: hsl(179, 47%, 52%);
+  color: white;
+}
+
+.cyan {
+  background-color: hsl(179, 62%, 43%);
+  color: white;
+}
+
+.row {
+  display: flex;
+}
+
+.row > section {
+  flex: 1;
+}
+
+h1 {
+  color: hsl(179, 62%, 43%);
+  font-size: 34px;
+}
+
+.yellow-text {
+  color: hsl(71, 73%, 54%);
+}
+
+p {
+  font-size: 18px;
+}
+
+p.light-black {
+  color: #999;
+  margin: 7px;
+}
+
+p.faded {
+  color: hsl(179, 43%, 75%);
+  display: flex;
+  align-items: center;
+}
+
+p.faded span {
+  color: #fff;
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 0;
+  margin-top: 15px;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  line-height: 28px;
+}
+
+@media  screen and (max-width: 600px) {
+  .row {
+    flex-direction: column;
+  }
+}
